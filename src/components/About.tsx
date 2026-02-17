@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { GraduationCap, Cpu } from "lucide-react";
 
 const cardVariant = {
-  hidden: { opacity: 0, y: 30 },
-  show: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 100, damping: 15 } },
+  hidden: { opacity: 0, y: 50 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" as const } },
 };
 
 const About = () => {
